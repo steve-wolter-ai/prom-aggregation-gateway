@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/steve-wolter-ai/prom-aggregation-gateway/routers"
+	"github.com/stevewolter/prom-aggregation-gateway/routers"
 )
 
 func init() {

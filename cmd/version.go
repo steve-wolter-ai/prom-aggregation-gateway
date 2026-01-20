@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/spf13/cobra"
-	"github.com/steve-wolter-ai/prom-aggregation-gateway/config"
+	"github.com/stevewolter/prom-aggregation-gateway/config"
 )
 
 func init() {
