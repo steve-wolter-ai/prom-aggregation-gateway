@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/zapier/prom-aggregation-gateway/config"
+	"github.com/steve-wolter-ai/prom-aggregation-gateway/config"
 )
 
 var cfg = config.Server{}
