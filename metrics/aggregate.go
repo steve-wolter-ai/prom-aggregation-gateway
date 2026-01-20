@@ -111,6 +111,7 @@ func (a *Aggregate) saveFamily(familyName string, family *dto.MetricFamily) erro
 }
 
 func (a *Aggregate) parseAndMerge(r io.Reader, labels []labelPair) error {
+	fmt.Printf("EXECUTING NEW CODE\n")
 	parser := expfmt.NewTextParser(model.LegacyValidation)
 	inFamilies, err := parser.TextToMetricFamilies(r)
 	if err != nil {
